@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Jura&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    padding: 46px 0;
+    font-family: Jura;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.logo-text {
+    margin-top: -20px;
+}
+
+h1 {
+    all: unset;
+}
+
+.arch {
+    display: block;
+    font-size: 64px;
+    line-height: 67px;
+
+}
+
+.deli {
+    display: block;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 17px;
+    line-height: 18px;  
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 10.5px 16.5%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.placeholder {
+    width: 100%;
+    height: 704px;
+    transform: rotate(+0.15deg);
+    margin-top: 46px;
+}
+
+section {
+    padding: 84.8px 110px 87px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    all: unset;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.insta-grid {
+    margin: 33px 117px 0 117px;
+    height: 482px;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.item1 {
+    grid-row: 1/3;
+    background-image: url('./item1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url('./item2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url('./item3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url('./item4.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.item5 {
+    background-image: url('./item5.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.item6 {
+    background-image: url('./item6.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    grid-column: 3/5;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 46px 125px;
+    background-color: rgb(237, 237, 237);
+    gap: 150px;
+    font-size: 16px;
+}
+
+.contact-us {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 33%;
+    gap: 15px;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+    justify-content: start;
+    align-items: start;
+}
+
+.opening-hours {
+    max-width: 33%;
+    width: 33%;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    padding: 5px;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h3 {
+    all: unset;
+    font-size: 42px;
+    line-height: 26px;
+    font-weight: 600;
+    
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    padding: 5px;
+}
+
+.opening-title {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
